@@ -1,4 +1,4 @@
 Transit
 =======
 
-Transit is a bookmarks page developed for use with WP7. 
+Transit is a bookmarks page developed for use with Windows Phone 7. 
