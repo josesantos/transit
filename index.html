@@ -1,78 +1,95 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title>Transit</title>
-<meta name="viewport" content="initial-scale=1.0, width=device-width,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<style type="text/CSS">
-body{
-	font-family:"segoe ui";
-	background-color:#000;
-	background-repeat:no-repeat;
-	background-position:top right;
-	background-attachment:fixed;
-}
-div.title_s{
-	text-align:left;
-	font-size:20px;
-	color:#FFFFFF;
+	<head>
+		<title>Transit</title>
+		<meta name="viewport" content="initial-scale=1.0, width=device-width,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<style type="text/CSS">
+			body{
+				font-family:"segoe ui",Helvetica, Arial, Sans-Serif;
+				background-color:#000;
+				background-repeat:no-repeat;
+				background-position:top right;
+				background-attachment:fixed;
+			}
+			div.title_s{ /*small title */
+				text-align:left;
+				font-size:20px;
+				color:#FFFFFF;
+			}
+			div.title_l{ /*large title */
+				position:relative;
+				top:-15px;
+				text-align:left;
+				font-size:55px;
+				color:#FFFFFF;
+			}
 
-}
-div.title_l{
-	position:relative;
-	top:-15px;
-	text-align:left;
-	font-size:55px;
-	color:#FFFFFF;
-}
-
-div.tiles{
-	position:relative;
-	top:-10px;
-}	 
-A:link {text-decoration: none}
-A:visited {text-decoration: none}
-A:active {text-decoration: none}
-A:hover {text-decoration: none}
-</style>
-</head>
-<body>	
-	<div class= "title_s">
-		transit <sup><small>[beta]</small></sup>
-	</div>
-	<div class= "title_l">
-		tech
-	</div>
-	<div class="tiles">
-		<a href="http://www.engadget.com" target="_blank">
-			<img style="border-color:black" border="1" alt="Engadget" src="Resources/Engadget.png" width="120" height="120" /> 
-		</a>
-		<a href="http://www.gizmodo.com">
-			<img style="border-color:black"  border="1" alt="The Oatmeal" src="Resources/Gizmodotile.png" width="120" height="120" />
-		</a>
-		<a href="http://www.technobuffalo.com">
-			<img style="border-color:black"  border="1" alt="The Oatmeal" src="Resources/TechBuff.jpg" width="120" height="120" />
-		</a>
-		<a href="http://www.thisismynext.com" target="_blank">
-			<img style="border-color:black" border="1" alt="ThisIsMyNext" src="Resources/ThisIsMyNext.jpg" width="120" height="120" /> 
-		</a>
-	</div>		
-	<div class= "title_l">
-		comics
-	</div>
-		<div class="tiles">
-		<a href="http://www.theoatmeal.com">
-			<img style="border-color:black"  border="1" alt="The Oatmeal" src="Resources/Oatmeal.jpg" width="120" height="120" />
-		</a>
+			div.tiles{
+				position:relative;
+				top:-10px;
+			}	 
+			A:link {text-decoration: none}  /*Removes blue highlights around tiles */ 
+			A:visited {text-decoration: none}
+			A:active {text-decoration: none}
+			A:hover {text-decoration: none}
+		</style>
+	</head>
+	<body>	
+		<div class= "title_s">
+			transit <sup><small>[beta]</small></sup>
 		</div>
-	<div class= "title_l">
-		forums
+		<div class= "title_l">
+			tech
+		</div>
+		<div class="tiles">
+			<a href="http://www.engadget.com" target="_blank">
+				<img style="border-color:black" border="1" alt="Engadget" src="Resources/Engadget.png" width="120" height="120" /> 
+			</a>
+			<a href="http://www.gizmodo.com">
+				<img style="border-color:black"  border="1" alt="Gizmodo" src="Resources/Gizmodotile.png" width="120" height="120" />
+			</a>
+			<a href="http://www.technobuffalo.com">
+				<img style="border-color:black"  border="1" alt="Techno Buffalo" src="Resources/TechBuff.jpg" width="120" height="120" />
+			</a>
+			<a href="http://www.thisismynext.com" target="_blank">
+				<img style="border-color:black" border="1" alt="ThisIsMyNext" src="Resources/ThisIsMyNext.jpg" width="120" height="120" /> 
+			</a>
+		</div>		
+		<div class= "title_l">
+			comics
+		</div>
+			<div class="tiles">
+			<a href="http://www.theoatmeal.com">
+				<img style="border-color:black"  border="1" alt="The Oatmeal" src="Resources/Oatmeal.jpg" width="120" height="120" />
+			</a>
+			<a href="http://www.xkcd.com">
+				<img style="border-color:black"  border="1" alt="xkcd" src="Resources/xkcd.png" width="120" height="120" />
+			</a>
+			</div>
+		<div class= "title_l">
+			forums
+		</div>
+		<div class="tiles">
+			<a href="http://www.vexforum.com">
+				<img style="border-color:black"  border="1" alt="VEX Forum" src="Resources/VEX.png" width="120" height="120" />
+			</a>
+			<a href="http://www.chiefdelphi.com">
+				<img style="border-color:black"  border="1" alt="Chief Delphi" src="Resources/ChiefDelphi.png" width="120" height="120" />
+			</a>
+		<div class= "title_l">
+			misc
+		</div>
+		<div class="tiles">
+			<a href="http://www.github.com">
+				<img style="border-color:black"  border="1" alt="Github" src="Resources/Github.png" width="120" height="120" />
+			</a>
+		</div>
+	</body>
+	<div class= "title_s">
+			Developed by Jose Santos
 	</div>
-	<div class= "title_l">
-		misc
-	</div>
-</body>
-<div class= "title_s">
-		© 2011 Jose Santos
+	<div class= "title_s">
+			Available under GPL v2.0
 	</div>
 </html>
