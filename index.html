@@ -1,45 +1,18 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 	<head>
 		<title>Transit</title>
 		<meta name="viewport" content="initial-scale=1.0, width=device-width,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<style type="text/CSS">
-			body{
-				font-family:"segoe ui",Helvetica, Arial, Sans-Serif;
-				background-color:#000;
-				background-repeat:no-repeat;
-				background-position:top right;
-				background-attachment:fixed;
-			}
-			div.title_s{ /*small title */
-				text-align:left;
-				font-size:20px;
-				color:#FFFFFF;
-			}
-			div.title_l{ /*large title */
-				position:relative;
-				top:-15px;
-				text-align:left;
-				font-size:55px;
-				color:#FFFFFF;
-			}
-
-			div.tiles{
-				position:relative;
-				top:-10px;
-			}	 
-			A:link {text-decoration: none}  /*Removes blue highlights around tiles */ 
-			A:visited {text-decoration: none}
-			A:active {text-decoration: none}
-			A:hover {text-decoration: none}
-		</style>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
 	</head>
+
 	<body>	
-		<div class= "title_s">
+		<div class= "header">
 			transit <sup><small>[beta]</small></sup>
 		</div>
-		<div class= "title_l">
+		<div class= "titles">
 			tech
 		</div>
 		<div class="tiles">
@@ -56,7 +29,7 @@
 				<img style="border-color:black" border="1" alt="ThisIsMyNext" src="Resources/ThisIsMyNext.jpg" width="120" height="120" /> 
 			</a>
 		</div>		
-		<div class= "title_l">
+		<div class= "titles">
 			comics
 		</div>
 			<div class="tiles">
@@ -67,7 +40,7 @@
 				<img style="border-color:black"  border="1" alt="xkcd" src="Resources/XKCD.png" width="120" height="120" />
 			</a>
 			</div>
-		<div class= "title_l">
+		<div class= "titles">
 			forums
 		</div>
 		<div class="tiles">
@@ -77,7 +50,7 @@
 			<a href="http://www.chiefdelphi.com">
 				<img style="border-color:black"  border="1" alt="Chief Delphi" src="Resources/ChiefDelphi.png" width="120" height="120" />
 			</a>
-		<div class= "title_l">
+		<div class= "titles">
 			misc
 		</div>
 		<div class="tiles">
@@ -86,10 +59,11 @@
 			</a>
 		</div>
 	</body>
-	<div class= "title_s">
+	<div class= "footer">
 			Developed by Jose Santos
 	</div>
-	<div class= "title_s">
+	<div class= "footer">
 			Available under GPL v2.0
 	</div>
+	
 </html>
