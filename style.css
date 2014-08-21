@@ -29,7 +29,15 @@ div.footer{
 	font-size:14px;
 	color:#FFFFFF;
 }
-A:link {text-decoration: none}  /*Removes blue highlights around tiles */ 
-A:visited {text-decoration: none}
-A:active {text-decoration: none}
-A:hover {text-decoration: none}
+a{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+a:hover{
+	color:#FFFFFF;
+	font-weight:bold;
+}
+/*Removes blue highlights around tiles */ 
+a.tile{
+text-decoration: none
+}  
