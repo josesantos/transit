@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+/* This is a style sheet for Transit */
+body{
+	font-family:"segoe ui",Helvetica, Arial, Sans-Serif;
+	background-color:#000;
+	background-repeat:no-repeat;
+	background-position:top right;
+	background-attachment:fixed;
+}
+div.header{
+	text-align:left;
+	font-size:20px;
+	color:#FFFFFF;
+}
+div.titles{ 
+	position:relative;
+	top:-15px;
+	text-align:left;
+	font-size:55px;
+	color:#FFFFFF;
+
+}
+div.tiles{
+	position:relative;
+	top:-10px;
+}	 
+div.footer{ 
+	text-align:left;
+	font-size:14px;
+	color:#FFFFFF;
+}
+a{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+a:hover{
+	color:#FFFFFF;
+	font-weight:bold;
+}
+/*Removes blue highlights around tiles */ 
+a.tile{
+text-decoration: none
+}  
