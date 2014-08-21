@@ -7,4 +7,4 @@ A hosted version can be found here: http://josesantos.github.io/transit/
 
 License
 =======
-This project is available under GNU General Public License V2.0. See the attached license files for details. 
+This project is available under GNU General Public License V2.0. See the attached license files for details. I do not own any of the images used on the example site, nor am I affliated with the websites linked. 
